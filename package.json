@@ -1,0 +1,29 @@
+{
+  "name": "mongodb_backend_sample_api",
+  "version": "1.0.0",
+  "description": "Sample api's",
+  "main": "server.ts",
+  "scripts": {
+    "start": "node dist/server.js",
+    "start:dev": "nodemon --exec ts-node src/server.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier:format": "prettier --write \"**/*.{js,ts,json,md}\""
+  },
+  "author": "Gokul Raj K V",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0",
+    "winston": "^3.16.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.7",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
